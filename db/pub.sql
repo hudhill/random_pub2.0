@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS pubs;
+
+CREATE TABLE pubs (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(255)
+);
